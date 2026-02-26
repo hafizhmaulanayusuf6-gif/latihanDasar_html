@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 15px 20px;
+    border-bottom: 2px solid #333;
+}
+
+.logo {
+    height: 60px; /* Sesuaikan ukuran logo */
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.sidebar-left {
+    width: 25%;
+}
+
+.main-menu {
+    list-style: none;
+}
+
+.main-menu a {
+    display: block;
+    background-color: #d1d9e2;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-left: 15px solid #8596a7;
+    transition: background-color 0.2s ease;
+}
+
+.main-menu a:hover,
+.main-menu a:active {
+    background-color: #ffd800;
+}
+
+.content-center {
+    width: 50%;
+}
+
+.content-center p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.sidebar-right {
+    width: 25%;
+}
+
+.pengumuman-list {
+    list-style: none;
+}
+
+.pengumuman-list li {
+    margin-bottom: 10px;
+} 
+
+.pengumuman-list a {
+    display: inline-block;
+    background-color: #2e8b8b; 
+    color: white;
+    font-weight: bold;
+    text-decoration: underline; 
+    padding: 3px 6px;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: #3b4c5f; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
