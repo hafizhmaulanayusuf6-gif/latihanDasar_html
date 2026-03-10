@@ -1,0 +1,48 @@
+body {
+    font-family: Calibri;
+}
+
+input {     
+    margin-bottom: 10px; 
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.ride {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.location {
+    display: block;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.329);
+}
+
+.destination {
+    display: block;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.329);
+}
+
+.Request {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.later {
+    height: 30px;
+    width: 131px;
+    border: none;
+}

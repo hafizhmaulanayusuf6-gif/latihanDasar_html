@@ -1,0 +1,37 @@
+input {     
+    margin-bottom: 10px; 
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.first {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.last {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.email {
+    height: 40px;
+    width: 230px;
+    border-radius: 10px;
+    display: block;
+}
+
+.sign {
+    height: 40px;
+    width: 255px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(9, 123, 236);
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.card {
+    background-color: black;
+    color: white;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid rgb(200, 200, 200);
+    font-family: Arial, sans-serif;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2 {
+    color: grey;
+}

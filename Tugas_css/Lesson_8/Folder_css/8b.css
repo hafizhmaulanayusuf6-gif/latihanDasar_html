@@ -1,0 +1,14 @@
+.p {
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.yes {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.no {
+    vertical-align: middle;
+}

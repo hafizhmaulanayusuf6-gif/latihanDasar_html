@@ -1,0 +1,30 @@
+.card {
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    font-family: Arial, sans-serif;
+}
+
+.pertanyaan {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.yes-button {
+    color: black;
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px; 
+}
+
+.no-button {
+    color: black;
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
