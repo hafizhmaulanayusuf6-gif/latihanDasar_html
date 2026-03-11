@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.follow-card {
+  width: 400px;
+  display: flex; 
+  align-items: center; 
+  padding: 15px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px; 
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.text-info {
+  flex: 1; 
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.description, .status {
+  color: gray;
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+.follow-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
