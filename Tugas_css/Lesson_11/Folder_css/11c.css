@@ -1,0 +1,14 @@
+body {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item {
+    background-color: lightpink;
+}

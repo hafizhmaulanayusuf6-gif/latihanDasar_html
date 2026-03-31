@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.co11, .co13 {
+    background-color: lightblue;
+}
+
+.co12 {
+    background-color: lightpink;
+}
