@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+
+.pink {
+    background-color: lightpink;
+    height: 50px;
+    width: 100px;
+}
+
+.container-blue {
+    display: flex;
+    background-color: lightblue;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.row1 {
+    justify-content: space-between;
+}
+
+.container-row2 {
+    justify-content: space-between;
+    display: flex;
+    width: 200px;
+}
+
+.row2 {
+    background-color: black;
+    color: white;
+}
