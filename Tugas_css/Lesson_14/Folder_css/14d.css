@@ -1,0 +1,47 @@
+body {
+    height: 3000px;
+    margin: 0;
+    font-family: Calibri;
+}
+
+.sidebar-right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 160px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-modal {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.class {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
