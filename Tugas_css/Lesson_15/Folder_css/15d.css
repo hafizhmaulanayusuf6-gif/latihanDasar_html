@@ -1,0 +1,40 @@
+body {
+    height: 3000px;
+    margin: 0;
+}
+
+.container {
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: grey;
+}
+
+.close {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minute {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
