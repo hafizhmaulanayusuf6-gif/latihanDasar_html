@@ -1,0 +1,112 @@
+* {
+    border: 1px solid yellow;
+}
+
+body {
+    height: 3000px;
+}
+
+.search-button,
+.voice,
+.button-upload-tooltip-container,
+.button-apps-tooltip-container,
+.button-notif-tooltip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.humburger {
+    height: 24px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    height: 27px;
+    width: 300px;
+}
+
+.voice {
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    border: none;
+    margin-left: 10px;
+}
+
+.icon {
+    height: 24px;
+    width: auto;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.sidebar-link img {
+    height: 24px;
+    width: auto;
+}
+
+.sidebar-link div {
+    font-size: 12px;
+}
+
