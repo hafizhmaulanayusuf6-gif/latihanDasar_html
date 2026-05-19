@@ -1,0 +1,37 @@
+<div class="tooltip">Arahkan kursor
+  <span class="tooltiptext">Teks Tooltip!</span>
+</div>
+ <style>
+
+    * {
+        border: 1px solid yellow;
+    }
+    .tooltip {
+  position: relative; /* Wajib */
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden; /* Sembunyikan awal */
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute; /* Posisikan */
+  z-index: 1;
+  top: 200%; /* Posisi di atas teks */
+  left: 50%;
+  margin-left: -60px; /* Tengah */
+  opacity: 0;
+  transition: opacity 0.3s; /* Efek transisi */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1; /* Tampilkan saat hover */
+}
+
+ </style>
